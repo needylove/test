@@ -11,6 +11,7 @@ The code of "Attention Guided Network for Retinal Image Segmentation" in MICCAI 
   - Divide data into training and test data, and store the image name in the train_dict.pkl file.
   - The train_dict.pkl should contains two dictionary: 'train_list' and 'test_list'.
 
+Train your model with:
 ```sh
 python main.py --data_path 'your_file_name'
-```sh
+```
