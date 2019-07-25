@@ -5,6 +5,8 @@ The code of "Attention Guided Network for Retinal Image Segmentation" in MICCAI 
   - You can run <AG_Net_path>/code/main.py for training a new model.
 
 # Quick usage on your data:
-  - 1. Put your desired file in <AG_Net_path>/data/<your_file_name>.
-  - 2. Put the images in <AG_Net_path>/data/<your_file_name>/images.
-  - 3. Put the labels in <AG_Net_path>/data/<your_file_name>/label. The label must be *.png type
+  - Put your desired file in <AG_Net_path>/data/<your_file_name>.
+  - Put the images in <AG_Net_path>/data/<your_file_name>/images.
+  - Put the labels in <AG_Net_path>/data/<your_file_name>/label. The label must be *.png type
+  - Divide data into training and test data, and store the image name in the train_dict.pkl file.
+  - The train_dict.pkl should contains two dictionary: 'train_list' and 'test_list'.
