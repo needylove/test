@@ -13,5 +13,5 @@ The code of "Attention Guided Network for Retinal Image Segmentation" in MICCAI 
 
 Train your model with:
 ```sh
-python main.py --data_path 'your_file_name'
+python main.py --data_path '../data/your_file_name'
 ```
