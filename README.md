@@ -4,7 +4,7 @@ The code of "Attention Guided Network for Retinal Image Segmentation" in MICCAI 
   - You can run <AG_Net_path>/code/test.py for testing any new image directly.
   - You can run <AG_Net_path>/code/main.py for training a new model.
 
-# Quick usage on your data:
+## Quick usage on your data:
   - Put your desired file in <AG_Net_path>/data/<your_file_name>.
   - Put the images in <AG_Net_path>/data/<your_file_name>/images.
   - Put the labels in <AG_Net_path>/data/<your_file_name>/label. The label must be *.png type
