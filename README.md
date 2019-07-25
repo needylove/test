@@ -10,3 +10,7 @@ The code of "Attention Guided Network for Retinal Image Segmentation" in MICCAI 
   - Put the labels in <AG_Net_path>/data/<your_file_name>/label. The label must be *.png type
   - Divide data into training and test data, and store the image name in the train_dict.pkl file.
   - The train_dict.pkl should contains two dictionary: 'train_list' and 'test_list'.
+
+```sh
+python main.py --data_path 'your_file_name'
+```sh
